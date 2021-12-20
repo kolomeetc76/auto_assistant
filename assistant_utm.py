@@ -70,7 +70,7 @@ class Ui_Dialog(QDialog):
         Dialog.setWindowTitle(_translate("Dialog", "UTM Настройка"))
         self.pushButton.setText(_translate("Dialog", "Скачать Open VPN"))
         self.pushButton_2.setText(_translate("Dialog", "Скачать Рутокен"))
-        self.pushButton_3.setText(_translate("Dialog", "Скачать DXBX Desktop"))
+        self.pushButton_3.setText(_translate("Dialog", "Name Application to Cpmpany"))
         self.pushButton_4.setText(_translate("Dialog", "Скачать UTM"))
         self.pushButton_7.setText(_translate("Dialog", "Config и Transport"))
         self.pushButton_5.setText(_translate("Dialog", "Настроить Брандмауэр"))
@@ -197,10 +197,10 @@ class Ui_Dialog(QDialog):
             def Download(self):
          
                 # specify the url of the file which is to be downloaded
-                down_url = 'http://updates.dxbx.ru/download/DxBx.Desktop-setup-v1.1.7.exe' # specify download url here
+                down_url = 'delete_url' # specify download url here
          
                 # specify save location where the file is to be saved
-                save_loc = 'DxBx.Desktop-setup-v1.1.7.exe'
+                save_loc = 'delete_name'
          
                 # Downloading using urllib
                 urllib.request.urlretrieve(down_url,save_loc, self.Handle_Progress)
